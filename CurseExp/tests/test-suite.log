@@ -3,20 +3,12 @@
 =====================================
 
 # TOTAL: 1
-# PASS:  0
+# PASS:  1
 # SKIP:  0
 # XFAIL: 0
-# FAIL:  1
+# FAIL:  0
 # XPASS: 0
 # ERROR: 0
 
 .. contents:: :depth: 2
-
-FAIL: check_roots
-=================
-
-Running suite(s): Roots
-87%: Checks: 8, Failures: 1, Errors: 0
-check_roots.c:107:F:Core:test_fail:0: Assertion 'result == 7' failed: result == 6, 7 == 7
-FAIL check_roots.exe (exit status: 1)
 

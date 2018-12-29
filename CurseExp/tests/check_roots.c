@@ -100,14 +100,6 @@ START_TEST(root_count_0root)
 }
 END_TEST
 
-START_TEST(test_fail)
-{
-    int arg = 3;
-    long result = factorial(arg);
-    ck_assert_int_eq(result,7);
-}
-END_TEST
-
 Suite * roots_suite(void)
 {
     Suite *s;
@@ -126,7 +118,6 @@ Suite * roots_suite(void)
     tcase_add_test(tc_core, root_count_2root);
     tcase_add_test(tc_core, root_count_1root);
     tcase_add_test(tc_core, root_count_0root);
-    tcase_add_test(tc_core, test_fail);
     suite_add_tcase(s, tc_core);
 
     return s;
